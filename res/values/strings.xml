@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">CustomsEvaluator</string>
+    <string name="action_settings">Action Setttings</string>
+    <string name="caption">Please evaluate our custom</string>
+    <string name="language">select your language:</string>
+    <string name="ButtonGood">Good</string>
+    <string name="ButtonBad">Bad</string>
+
+</resources>
