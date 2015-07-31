@@ -13,6 +13,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.Spinner;
 import android.widget.ArrayAdapter;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	
@@ -63,6 +64,35 @@ public class MainActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	
+	public void OnBtnAdminClicked(View v)
+	{
+		if (v.getId() == R.id.btnAdmin)
+		{
+			MessageBox("Admin screen should open here");
+		}
+	}
+	
+	public void OnBtnGoodClicked(View v)
+	{
+		if (v.getId() == R.id.btnGood)
+		{
+			MessageBox("You evaluated with Positive. \n\n   Thanks for your time");
+		}
+	}
+	
+	public void OnBtnBadClicked(View v)
+	{
+		if (v.getId() == R.id.btnBad)
+		{
+			MessageBox("You evaluated with Negative. \n\n   Thanks for your time");
+		}
+	}
+	
+	private void MessageBox(String text)
+	{
+		Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
 	}
 	
 	 public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {

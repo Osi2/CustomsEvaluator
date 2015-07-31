@@ -4,7 +4,8 @@
     <string name="action_settings">Action Setttings</string>
     <string name="caption">Please evaluate our custom</string>
     <string name="language">select your language:</string>
-    <string name="ButtonGood">Good</string>
-    <string name="ButtonBad">Bad</string>
+    <string name="ButtonGood">Positive</string>
+    <string name="ButtonBad">Negative</string>
+    <string name="ButtonAdmin">Admin</string>
 
 </resources>
